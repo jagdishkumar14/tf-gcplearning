@@ -1,4 +1,4 @@
-resource "google_compute_instance" "vm_instance" {
+resource "google_compute_instance" "myfirstvm" {
   name         = "myfirstvm"
   machine_type = "e2-micro"
   allow_stopping_for_update = true
@@ -14,4 +14,7 @@ resource "google_compute_instance" "vm_instance" {
     access_config {
     }
   }
+}
+resource "google_compute_instance" "name" {
+  
 }
