@@ -1,5 +1,5 @@
 resource "google_compute_instance" "myfirstvm" {
-  name                      = "myfirstvm"
+  name                      = "jk-myfirstvm"
   machine_type              = "e2-micro"
   allow_stopping_for_update = true
   boot_disk {
