@@ -15,6 +15,3 @@ resource "google_compute_instance" "myfirstvm" {
     }
   }
 }
-resource "google_compute_instance" "name" {
-  
-}
