@@ -2,7 +2,7 @@ output "instance_type" {
   value = google_compute_instance.vm_instance.machine_type
 }
 output "instance_ipadd" {
-    value = google_compute_instance.vm_instance.network_interface
+    value = google_compute_instance.vm_instance.current_status
   
 }
 output "instance_hostname" {
