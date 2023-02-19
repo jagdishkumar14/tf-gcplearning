@@ -1,6 +1,6 @@
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance"
-  machine_type = "e2-micro"
+  machine_type = "e2-small"
 
   boot_disk {
     initialize_params {
