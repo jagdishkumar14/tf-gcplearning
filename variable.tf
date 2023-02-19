@@ -16,8 +16,3 @@ variable "GOOGLE_CREDENTIALS" {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-module "vm" {
-  source  = "terraform-google-modules/vm/google"
-  version = "8.0.0"
-  hostname= "tftestvm"
-}
