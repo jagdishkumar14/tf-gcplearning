@@ -16,3 +16,12 @@ variable "GOOGLE_CREDENTIALS" {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+variable "region" {
+  default = "us-west1"
+}
+variable "project_id" {
+  default = "gcplearning-375912"
+}
+variable "zone" {
+  default = "us-west1-b"
+}
