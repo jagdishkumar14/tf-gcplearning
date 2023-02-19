@@ -9,7 +9,3 @@ output "instance_hostname" {
     value = google_compute_instance.vm_instance.hostname
   
 }
-output "instance_IP" {
-  value = google_compute_instance.vm_instance.network_ip
-  
-}
