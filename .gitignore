@@ -8,3 +8,4 @@
 *.tfstate
 *.tfstate.*
 *.tfplan
+serviceaccount.json
