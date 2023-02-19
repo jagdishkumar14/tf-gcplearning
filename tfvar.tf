@@ -38,7 +38,7 @@ variable "subnetwork_project" {
 variable "hostname" {
   description = "Hostname of instances"
   type        = string
-  default     = ""
+  default     = "tf-test-machine"
 }
 
 variable "add_hostname_suffix" {
