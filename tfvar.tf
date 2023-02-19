@@ -79,6 +79,7 @@ variable "num_instances" {
 variable "instance_template" {
   description = "Instance template self_link used to create compute instances"
   type        = string
+  default     = null 
 }
 
 variable "region" {
