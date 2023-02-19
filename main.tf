@@ -1,5 +1,5 @@
 module "vm" {
   source   = "terraform-google-modules/vm/google"
   version  = "8.0.0"
-  hostname = "tftestvm"
+  vm_name = "tftestvm"
 }
